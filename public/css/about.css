@@ -1,0 +1,230 @@
+.about {
+    max-width: 1200px;
+    margin: 0 auto 135px auto;
+}
+
+.about h1 {
+    margin: 50px 0 20px 0;
+    font-size: 70px;
+    color: #ff782c;
+}
+
+.about img {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+
+.conteiner-text {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.conteiner-text h2 {
+    font-size: 50px;
+    margin: 0 0 15px;
+}
+
+.conteiner-text p {
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+.conteiner-text ul {
+    margin: 0 0 0 100px;
+}
+
+.conteiner-text li {
+    margin: 10px 0;
+    list-style-image: url(../img/point.svg);
+    font-size: 21px;
+}
+
+.location {
+    max-width: 1200px;
+    margin: 100px auto 0 auto;
+    display: flex;
+}
+
+.location>.text {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.location>.text p {
+    margin: 0 0 15px 0;
+    color: #a3a3a3;
+}
+
+.location>.text h1 {
+    font-size: 29px;
+}
+
+.location img {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.prodyct-obaut {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.prodyct-obaut p {
+    margin: 0 0 15px 0;
+    color: #a3a3a3;
+}
+
+.conteiner-prydect {
+    width: 380px;
+    height: 540px;
+    margin: 10px;
+    background-color: #eee;
+        transition: 0.3s;
+}
+
+.block-prodyct {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.conteiner-prydect img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+
+
+}
+.conteiner-prydect:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.text-c {
+    padding: 20px;
+    height: 235px;
+}
+
+.text-c h2 {
+    font-size: 26px;
+    margin: 0 0 15px 0;
+    font-weight: 300;
+
+}
+
+.text-c p {
+    color: #000;
+}
+
+.next {
+    padding: 20px;
+
+}
+
+.next p {
+    font-size: 21px;
+    font-weight: 100;
+    color: #000;
+    cursor: pointer;
+}
+
+.ask-odaut {
+    max-width: 1200px;
+    margin: 10px auto 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ask-odaut>.text {
+    max-width: 650px;
+
+}
+
+.ask-odaut>.text h2 {
+    margin: 0 0 50px 0;
+}
+
+.ask-odaut>.text p {
+    margin: 0 0 50px 0;
+    font-size: 18px;
+}
+
+.ask-odaut>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ask-odaut>form input {
+    width: 450px;
+    height: 25px;
+    border: none;
+    margin: 10px 0;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 18px;
+    padding: 5px;
+}
+.ask-odaut>form>.but {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+
+
+ .decor {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto 0;
+    background: white;
+    border-radius: 30px;
+    left: 400px;
+    top: -500px;
+ }
+
+ .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+ }
+ .form-inner {
+    padding: 50px;
+     background-color: #ffffff; 
+     border-radius: 30px;
+ }
+ .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'MullerLight', sans-serif;
+ }
+ .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 14px;
+ }
+ .form-inner textarea {
+    resize: none;
+ }
+ .form-inner h3 {
+    top: 20px;
+    margin-top: 0;
+    font-family: 'MullerLight', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+ }

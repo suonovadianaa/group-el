@@ -1,0 +1,145 @@
+
+
+.texxt h1 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    font-weight: 300;
+    font-family: "MullerMedium";
+    line-height: 1.5;
+}
+
+.texxt h2 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    font-weight: 50;
+    font-family: "MullerLight";
+    line-height: 1.5;
+}
+
+.texxt{
+    max-width: 1200px;
+    position: relative;
+    top: -400px;
+    left: 420px;
+    letter-spacing: 2px;
+    
+    
+} 
+.block1 img{
+    
+    width: 60%;
+    margin: 0 10px;
+    height: 60%;
+    position: relative;
+    left: 400px;
+    
+    
+}
+.block1{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+
+.menukadr {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 100;
+}
+
+.menukadr a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+    font-size: 25px;
+    transition: 300ms;
+    font-family: "MullerMedium";
+    
+}
+
+.menukadr a:hover {
+    color: #ff782c;
+    transform: scale(1.1);
+}
+
+
+
+.textp{  /* надпись факты о компании */
+    font-size: 45px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -200px;
+}
+
+
+.list {
+    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  width: 1200px;
+  
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.list ul {
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    background: rgba(255,255,255,0.5);
+    padding: 20px 45px;
+    list-style: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.list ul li {
+  font-family: "MullerLight";
+    font-size: 30px;
+    
+    color: #000000;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.list ul li:before {
+    font-family: "MullerLight";
+    content: "\f18c";
+    height: 100%;
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    color: #000000;
+}
+@media only screen and (max-width: 768px){
+  
+    .list {
+        width: 80%;
+    }
+    
+    .list ul li {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+}
+
+.list img{
+    width: 30%;
+    height: 30%;
+}

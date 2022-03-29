@@ -1,0 +1,16 @@
+.prisonnel-text>.conteiner-prodyct-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prisonnel-text>.conteiner-prodyct-text>.text-conteiner-prodyct-text{
+    margin: 30px 0;
+}
+.prisonnel-text>.conteiner-prodyct-text>.text-conteiner-prodyct-text ul{
+    margin: 10px 30px;
+
+}
+.prisonnel-text>.conteiner-prodyct-text>.text-conteiner-prodyct-text li{
+    margin: 5px 0;
+    font-size: 18px;
+}

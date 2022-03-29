@@ -1,0 +1,162 @@
+.cap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cap video {
+    position: relative;
+    object-fit: cover;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.cap>.text {
+    max-width: 800px;
+    z-index: 10;
+    position: relative;
+    top: -500px;
+    left: 10%;
+}
+
+.cap>.text h2 {
+    font-size: 70px;
+}
+
+.cap>.text p {
+    font-size: 32px;
+}
+
+.content {
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 1000px;
+    font-size: 10px;
+
+}
+
+.content p {
+    color: #a3a3a3;
+    margin: 20px 0 50px 0;
+    font-size: 21px;
+}
+
+.content .text>h2 {
+    font-size: 52px;
+}
+
+.content .text>p {
+    color: #000;
+    margin: 15px 0;
+    max-width: 750px;
+}
+
+.block-v {
+    position: relative;
+    top: 650px;
+    width: 100%;
+    height: 753px;
+    background-color: #111;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.text-conteiner {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-conteiner p {
+    width: 300px;
+    font-size: 26px;
+}
+
+.text-conteiner h2 {
+    display: flex;
+    font-size: 150px;
+}
+
+.text-conteiner h2::before {
+    content: "<";
+    color: #ff782c;
+    margin: 0 5px;
+}
+
+.text-conteiner hr {
+    width: 10px;
+    height: 150px;
+    border: none;
+    background-color: #ff782c;
+    margin: 0 50px;
+}
+
+.prodyct {
+    width: 100%;
+    height: 2150px;
+    background-image: url(../img/bg.svg);
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    top: 650px;
+    padding: 100px 0;
+    justify-content: space-around;
+}
+
+.block-prodyct {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between
+}
+
+.text-conteiner-prodyct-text {
+    margin: 100px 0;
+    width: 750px;
+}
+
+.text-conteiner-prodyct-text h2 {
+    margin: 20px 0;
+    font-size: 52px;
+}
+
+.text-conteiner-prodyct-text p {
+    font-size: 21px;
+}
+
+.conteiner-prodyct-photo {
+    height: 100%;
+    position: relative;
+    top: 200px;
+}
+
+.conteiner-prodyct-photo img {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 300px;
+    height: 300px;
+    top: 58%;
+    margin: 0 0 68px 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+b {
+    position: relative;
+    top: 40px;
+    left: -43px;
+    color: #ff782c;
+}
+

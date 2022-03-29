@@ -1,0 +1,124 @@
+footer {
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 0;
+    height: 600px;
+    background-color: #282828;
+    color: white;
+    transform: translateY(653px);
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footer-cap {
+    max-width: 1300px;
+    position: relative;
+    top: 20px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-manu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-cap input {
+    width: 250px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #eee;
+}
+
+.but {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.footer-manu a:hover {
+    color: #ff782c;
+}
+
+.but:hover {
+    color: #ff782c;
+}
+
+.block-ask {
+    display: flex;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.ask {
+    border-top: 2px solid;
+    width: 40%;
+    min-height: 200px;
+}
+
+.ask h2 {
+    margin: 40px 0;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.ask p {
+    font-size: 21px;
+}
+
+.phone a {
+
+    color: #ff782c;
+    text-decoration: none;
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+
+.phone p {
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.phone {
+    border-top: 2px solid;
+    width: 40%;
+    min-height: 200px;
+}
+
+.phone h2 {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.info-footer {
+    width: 100%;
+    font-size: 21px;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-footer a {
+    color: #ff782c;
+    text-decoration: none;
+}
+.icon {
+    display: flex;
+    height: 25px;
+}
+
+.icon img {
+    width: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+}

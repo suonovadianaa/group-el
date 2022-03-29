@@ -1,0 +1,62 @@
+.office1 h1{
+    font-size: 35px;
+    font-family: "MullerMedium";
+    position: relative;
+    left: 400px;
+    top: -500px;
+    max-width: 1000px;
+   
+}
+
+.office1 p{
+    font-size: 22px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 400px;
+    top: -450px;
+    max-width: 780px;
+    line-height: 40px;
+    
+  
+    
+
+
+}
+
+.officeimg img{
+    width: 30%;
+    margin: 0 10px;
+    height: 30%;
+    position: relative;
+    left: 1000px;
+
+    
+
+}
+
+.officeimg2 img{
+    width: 30%;
+    margin: 0 10px;
+    height: 30%;
+    position: relative;
+    left: 350px;
+    top: -400px;
+
+
+}
+
+
+
+.office2 p{
+    font-size: 22px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 980px;
+    top: -800px;
+    max-width: 730px;
+    line-height: 40px;
+    
+  
+
+
+}

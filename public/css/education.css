@@ -1,0 +1,38 @@
+.education1 h1{
+    font-size: 35px;
+    font-family: "MullerMedium";
+    position: relative;
+    left: 400px;
+    top: -500px;
+    max-width: 1000px;
+    
+}
+
+.education1 p{
+    font-size: 28px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 400px;
+    top: -450px;
+    max-width: 790px;
+    line-height: 40px;
+    
+
+
+}
+
+.educationimg img{
+    width: 30%;
+    margin: 0 10px;
+    height: 30%;
+    position: relative;
+    left: 1000px;
+    top: 100px;
+
+    
+
+}
+
+
+
+

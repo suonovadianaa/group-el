@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.menu {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: 300ms;
+}
+
+.menu a:hover {
+    color: #ff782c;
+    transform: scale(1.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+.logo img{
+    width: 40px;
+}
+

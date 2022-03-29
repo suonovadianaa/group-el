@@ -1,0 +1,87 @@
+.stazh1 h1{
+    font-size: 35px;
+    font-family: "MullerMedium";
+    position: relative;
+    left: 400px;
+    top: -500px;
+    max-width: 1000px;
+    
+}
+
+.stazh1 p{
+    font-size: 22px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 400px;
+    top: -450px;
+    max-width: 1000px;
+    
+    
+
+
+}
+
+.stazhimg img{
+    width: 30%;
+    margin: 0 10px;
+    height: 30%;
+    position: relative;
+    left: 1000px;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tmpl_hh_probation {
+    margin-top: 14px;
+    border-radius: 30px;
+    background: #f15722;
+    background: -webkit-linear-gradient(left, #f15722 0%, #ffa24f 40%, #ffa24f 60%, #f15722 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#f15722), color-stop(40%, #ffa24f), color-stop(60%, #ffa24f), to(#f15722));
+    background: -o-linear-gradient(left, #f15722 0%, #ffa24f 40%, #ffa24f 60%, #f15722 100%);
+    background: linear-gradient(to right, #f15722 0%, #ffa24f 40%, #ffa24f 60%, #f15722 100%);
+   /*  padding: 88px 9% 88px 51.2%; */
+    color: #fff;
+    position: relative;
+    top: -270px;
+    max-width: 1200px;
+    left: 370px;;
+    max-height: 400px;
+}
+
+   .tmpl_hh_probation img {
+        width: 36.7%;
+        display: relative;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+       left: 600px;
+        top: 200px;
+    } 
+
+
+    .tmpl_hh_probation p {
+        font-size: 24px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 490px;
+    top: -350px;
+    max-width: 700px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+    
+    
+    }

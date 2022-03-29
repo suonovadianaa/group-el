@@ -1,0 +1,59 @@
+.search1 h1{
+    font-size: 35px;
+    font-family: "MullerMedium";
+    position: relative;
+    left: 400px;
+    top: -500px;
+    max-width: 1000px;
+   
+}
+
+.search1 p{
+    font-size: 22px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 400px;
+    top: -450px;
+    max-width: 1000px;
+  
+    
+
+
+}
+
+.searchimg img{
+    width: 30%;
+    margin: 0 10px;
+    height: 30%;
+    position: relative;
+    left: 1000px;
+
+    
+
+}
+
+.searchimg2 img{
+    width: 30%;
+    margin: 0 10px;
+    height: 30%;
+    position: relative;
+    left: 350px;
+    top: -400px;
+
+
+}
+
+
+
+.search2 p{
+    font-size: 22px;
+    font-family: "MullerLight";
+    position: relative;
+    left: 980px;
+    top: -800px;
+    max-width: 800px;
+  
+  
+
+
+}
